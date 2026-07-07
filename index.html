@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const placeId = params.get("placeId");
+    const jobId = params.get("jobId");
+    window.location.href = "roblox://placeId=" + placeId + "&gameInstanceId=" + jobId;
+</script>
+</head>
+<body>
+    Redirecting to Roblox...
+</body>
+</html>
